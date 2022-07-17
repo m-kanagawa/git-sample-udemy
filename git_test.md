@@ -27,6 +27,14 @@ git config --global user.email 'xxx'
 git config --list //Qで抜けれる
 ----------------------------------
 
+### 2回目以降は3つのコマンド
+git add .
+// VSCode上で追加ファイルも見れる
 
+git commit -m "コメント"
+// VScode上GitGraphでIDも見れる
+
+git push origin main
+// リモート名 リモートブランチ
 
 
