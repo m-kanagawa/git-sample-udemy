@@ -60,3 +60,22 @@ GitHubにアップしたくないファイル・フォルダを書いておく
 .gitignore
 
 
+---
+
+### git branch（ブランチ）
+
+* ブランチの確認
+git branch
+* ブランチの作成
+git branch \<new>
+* ブランチ名変更
+git branch -m \<old> \<new>
+* ブランチの切替
+git switch "ブランチ名"
+* 新ブランチ作成＋切替
+git switch -c \<new>
+* ブランチの削除
+git branch -d <ブランチ名>
+
+補足
+昔は checkout でブランチの切替を行っていた。
