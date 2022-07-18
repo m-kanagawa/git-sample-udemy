@@ -37,4 +37,14 @@ git commit -m "コメント"
 git push origin main
 // リモート名 リモートブランチ
 
+---------
+最初にリモートリポジトリにアップする時に「-u」を付け忘れると、
+毎回アップの際は「git push origin main」とつける必要がある。
+これをブランチ名を指定することで、「git push」のみでアップできるようになる。
 
+上流ブランチの変更
+git branch -u リモートリポジトリ名/ブランチ名
+「git branch -u origin/main」
+
+上流ブランチの設定確認
+git branch -vv
